@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+cp -f /tmp/pyovpn-2.0-py2.7.egg /usr/local/openvpn_as/lib/python2.7/site-packages/pyovpn-2.0-py2.7.egg
+/usr/local/openvpn_as/scripts/openvpnas --nodaemon --umask=0077 --pidfile=/openvpn/pid/openvpn.pid --logfile=/config/log/openvpn.log
